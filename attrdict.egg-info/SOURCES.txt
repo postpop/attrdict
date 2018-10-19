@@ -1,0 +1,6 @@
+README.md
+attrdict.py
+attrdict.egg-info/PKG-INFO
+attrdict.egg-info/SOURCES.txt
+attrdict.egg-info/dependency_links.txt
+attrdict.egg-info/top_level.txt
