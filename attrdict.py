@@ -1,5 +1,5 @@
 """A dictionary on stereoids(sic!)."""
-import deepdish as dd
+import flammkuchen
 from collections import defaultdict
 
 
@@ -33,7 +33,7 @@ class AttrDict(defaultdict):
         self[key] = value
 
     def save(self, filename, compression='blosc'):
-        dd.io.save(filename, self, compression=compression)
+        flammkuchen.save(filename, self, compression=compression)
 
     def load(self, filename, compression='blosc'):
-        return AttrDict(dd.io.load(filename))
+        return AttrDict(flammkuchen.load(filename))
